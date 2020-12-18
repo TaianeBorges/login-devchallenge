@@ -1,0 +1,104 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    
+    
+    background-color: #4E5BEE;
+    color: #ffff;
+    
+}
+.tela-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.logo{
+    padding-top: 8em;
+    height: 97px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-content: space-between;
+    padding: 3em 2em;
+    align-items: center;
+   
+    
+}
+.email ,
+.pass,
+.btn{
+    height: 45px;
+     border-radius: 20px;
+     align-items: center;
+
+}
+.email, .pass{
+    color: #fff
+}
+
+.btn{
+    display: block;
+    background-color: #fff;
+    color: #4E5BEE;
+    align-items: center;
+    font-size: medium;
+}
+
+
+
+.login input{
+    
+    background: transparent;
+    border-color:  #fff;
+    margin-bottom: 2em;
+}
+
+.link-senha{
+    text-align: center;
+    padding-top: 4em;
+}
+
+.tela2{
+    align-items: center;
+}
+
+
+@media screen and (min-width: 748px){
+    body{
+       
+        display: inline-flex;
+       
+        
+    }
+
+    /* .vetor{
+        display: flex;
+    } */
+    .tela2{
+        background-color: #fff;
+        height: 100%;
+        padding-bottom: 12rem;
+        
+    }
+
+    .tela-login{
+        flex-direction:column;
+        justify-content: center;
+        margin-left: none;
+    }
+   
+}
+
