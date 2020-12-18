@@ -21,7 +21,7 @@ body{
 
 .logo{
     padding-top: 8em;
-    height: 97px;
+    height: 77px;
     align-items: center;
     text-align: center;
 }
@@ -49,7 +49,7 @@ body{
     color: #fff
 }
 
-.btn{
+.login .btn{
     display: block;
     background-color: #fff;
     color: #4E5BEE;
@@ -72,7 +72,7 @@ body{
 }
 
 .tela2{
-    align-items: center;
+    display: none;
 }
 
 
@@ -84,10 +84,8 @@ body{
         
     }
 
-    /* .vetor{
-        display: flex;
-    } */
     .tela2{
+        display: flex;
         background-color: #fff;
         height: 100%;
         padding-bottom: 12rem;
@@ -98,6 +96,10 @@ body{
         flex-direction:column;
         justify-content: center;
         margin-left: none;
+    }
+    .logo{
+        padding-top: 8em;
+        height: 97px;
     }
    
 }
